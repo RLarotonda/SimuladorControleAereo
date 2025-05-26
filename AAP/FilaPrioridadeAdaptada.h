@@ -60,7 +60,7 @@ void exibe(no *L)
     no *P = L;
     cout << " ";
     while (P != NULL) {
-		cout << "C:" << P->info << " P:" << P->prior << "|" ;
+		cout << "Voo " << P->info << " (" << P->prior << ") |";
         P = P->link;
     }
 }
